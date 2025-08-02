@@ -8,46 +8,48 @@ const projects = [
   {
     id: 1,
     title: 'Options Pricing Model',
-    description: 'Streamlit-based tool that implements a binomial tree model to price American-style options, integrating real-time market data via yFinance and computing historical volatility using log returns. ',
+    description:
+      'Streamlit-based tool that implements a binomial tree model to price American-style options, integrating real-time market data via yFinance and computing historical volatility using log returns.',
     image: '/code.jpg',
-    liveUrl: 'https://options-crrmmzwtzusappq8vbcamve.streamlit.app/',          
-    repoUrl: 'https://github.com/dhrutiv1129/options', 
+    liveUrl: 'https://options-crrmmzwtzusappq8vbcamve.streamlit.app/',
+    repoUrl: 'https://github.com/dhrutiv1129/options',
   },
   {
     id: 2,
     title: 'Financial Report Generator',
     description: 'Real-time chat application powered by OpenAI',
     image: '/laptop.jpg',
-    liveUrl: 'https://your-live-project-2.com',         
-    repoUrl: 'https://github.com/dhruti/financial-report-generator', 
+    liveUrl: 'https://your-live-project-2.com',
+    repoUrl: 'https://github.com/dhruti/financial-report-generator',
   },
   {
     id: 3,
     title: 'ML Based Student Performance Prediction ',
-    description: 'Simple machine learning project using classifiers for predicting factors which affect student grades, using data from CSV file',
+    description:
+      'Simple machine learning project using classifiers for predicting factors which affect student grades, using data from CSV file',
     image: '/code.jpg',
-    liveUrl: 'https://your-live-project-3.com',          
-    repoUrl: 'https://github.com/dhrutiv1129/student-grades', 
+    repoUrl: 'https://github.com/dhrutiv1129/student-grades',
   },
   {
     id: 4,
     title: 'Personal Portfolio',
     description: "The portfolio you're looking at right here",
     image: '/laptop.jpg',
-    liveUrl: 'https://your-portfolio-url.com',           
-    repoUrl: 'https://github.com/dhrutiv1129/student-grades', 
+    liveUrl:
+      'https://portfolio-873o9yt2d-dhrutis-projects-18c08596.vercel.app/',
+    repoUrl: 'https://github.com/dhrutiv1129/portfolio/tree/main',
   },
 ];
 
 export default function ProjectsSection() {
   return (
-    <section className="py-12 md:py-20 px-4 max-w-7xl mx-auto">
+    <section className="py-12 md:py-20 px-4 max-w-7xl mx-auto bg-gray-900 text-white">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center"
+        className="text-3xl md:text-5xl font-bold mb-8 md:mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-600"
       >
         Independent Projects
       </motion.h2>
@@ -74,14 +76,16 @@ export default function ProjectsSection() {
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
               <p className="text-gray-300 mb-4">{project.description}</p>
               <div className="flex gap-4">
-                <Link
-                  href={project.liveUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
-                >
-                  View Project
-                </Link>
+                {project.liveUrl && (
+                  <Link
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
+                  >
+                    View Project
+                  </Link>
+                )}
                 <Link
                   href={project.repoUrl}
                   target="_blank"

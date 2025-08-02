@@ -9,19 +9,18 @@ export default function CurrentlyBrainstorming() {
       subtitle: 'AI-Powered Financial Forecasting Tool — Jul 2025 – Present',
       points: [
         'Developing a personal finance platform generating AI-driven financial “report cards” and personalized recommendations based on user data.',
-    
       ],
-      link: 'https://your-finsight-website.com', // Replace with actual project link if any
+      link: 'https://www.notion.so/dhruti-portfolio/finsight-braindump-243e4feed2738024bd38e260d8ac3816?showMoveTo=true&saveParent=true',
     },
     {
       title: 'DubMarket — UW HFS',
-      subtitle: '',
+      subtitle: 'Student-based Marketplace and Storage Finder — Jul 2025 – Present' ,
       points: [
         'Building a marketplace app from scratch for UW students to buy/sell dorm stuff and find nearby hosts to store items over the summer.',
         'Backed by UW Housing and Food Services, UW CSEED, DubHacks',
         'Raised $1000 in funding through DubHacks '
       ],
-      link: 'https://github.com/your-uw-marketplace-repo', // Replace or remove if none
+      link: 'https://www.notion.so/dhruti-portfolio/DUMP-UW-Marketplace-App-dubmarket-243e4feed27380c7bb71f417c82b85d4?source=copy_link',
     },
   ];
 
@@ -30,14 +29,14 @@ export default function CurrentlyBrainstorming() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="py-20 px-6 bg-gray-800 text-white"
+      className="py-20 px-6 bg-gray-900 text-white"
     >
       <div className="max-w-5xl mx-auto">
         <motion.h2
           initial={{ y: 50 }}
           whileInView={{ y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-3xl md:text-5xl font-bold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500 text-center"
+          className="text-3xl md:text-5xl font-bold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-600 text-center"
         >
           Currently Brainstorming...
         </motion.h2>
@@ -49,7 +48,7 @@ export default function CurrentlyBrainstorming() {
               initial={{ y: 30, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.6, delay: i * 0.2 }}
-              className="rounded-lg bg-gray-900 p-6 shadow-lg flex flex-col"
+              className="rounded-lg bg-gray-800 p-6 shadow-md flex flex-col"
             >
               <h3 className="font-semibold text-white text-xl mb-2">{title}</h3>
               {subtitle && <p className="italic text-sm mb-4 text-gray-400">{subtitle}</p>}
@@ -63,7 +62,7 @@ export default function CurrentlyBrainstorming() {
                   href={link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="self-start px-4 py-2 rounded-md bg-gradient-to-r from-green-400 to-blue-500 text-white font-semibold hover:brightness-110 transition"
+                  className="self-start px-4 py-2 rounded-md bg-gradient-to-r from-purple-400 to-blue-600 text-white font-semibold hover:brightness-110 transition"
                 >
                   Learn More
                 </a>
