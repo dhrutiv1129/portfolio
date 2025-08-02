@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: '[Your Name] - Software Developer',
+	title: '[Dhruti Vadlamudi] - Software Developer',
 	description:
 		'Welcome to my portfolio! I am a passionate software developer with a focus on clean, minimal, and effective solutions. I believe in the power of simplicity and thoughtful design to create impactful digital experiences.',
 	keywords: [
@@ -31,15 +31,15 @@ export const metadata: Metadata = {
 		'Performance',
 		'Accessibility',
 		'Minimalist Portfolio',
-		'[Your Name]',
+		'Dhruti Vadlamudi',
 	],
-	authors: [{ name: '[Your Name]' }],
-	creator: '[Your Name]',
+	authors: [{ name: 'Dhruti Vadlamudi' }],
+	creator: 'Dhruti Vadlamudi',
 	openGraph: {
-		title: '[Your Name] - Software Developer Portfolio',
+		title: 'Dhruti Vadlamudi - Software Developer Portfolio',
 		description: 'Passionate software developer creating clean, minimal, and effective digital solutions. Explore my work and development philosophy.',
 		url: 'https://your-domain.com',
-		siteName: '[Your Name] - Portfolio',
+		siteName: 'Dhruti Vadlamudi - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
