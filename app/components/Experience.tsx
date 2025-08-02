@@ -26,7 +26,7 @@ export default function ExperienceSection() {
 					transition={{ duration: 0.8, delay: 0.2 }}
 					className="text-lg text-gray-300 mb-10"
 				>
-					While some of my work is under NDA or tied to academic honor code policies, here's a glimpse into projects I’ve tackled under those organizations.
+					While some of my work is under NDA or tied to academic honor code policies, here is a glimpse into projects I’ve tackled under those organizations.
 				</motion.p>
 
 				<ul className="text-left text-gray-300 space-y-6">
