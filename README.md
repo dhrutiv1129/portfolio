@@ -29,9 +29,4 @@ This portfolio is built using **Next.js 13** with the App Router, **TypeScript**
 
 ---
 
-## ⚙️ Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/dhrutiv1129/portfolio.git
 
