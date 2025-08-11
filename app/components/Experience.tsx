@@ -4,25 +4,26 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    title: '📊 Financial Assistant GPT',
+    title: '📊 Financial Forecasting & Automation',
     description:
-      'Built a GPT-powered budgeting assistant leveraging AI automation to analyze transaction data and deliver personalized, judgment-free financial insights with scalable APIs and serverless infrastructure.',
-    details: 'Tools: OpenAI API, LangChain, Pinecone • Company: Impact Financial Advisors',
+      'Built predictive financial models using Python, TensorFlow, and scikit-learn, integrating market and client portfolio data to automate risk analysis workflows and reduce manual review time by 35%. Created interactive Tableau dashboards for tracking key financial indicators.',
+    details: 'Tools: Python, TensorFlow, scikit-learn, Tableau, SQL • Company: Impact Financial Advisors',
   },
   {
-    title: '🧠 AI Research Automation',
+    title: '🧠 Marketing Data Analytics & Automation',
     description:
-      'Developed and deployed LLM pipelines and n8n workflow automations for enrollment trend analysis and student engagement prediction at UW Foster School of Business, automating NLP experiments with robust data engineering and performance tracking.',
-    details: 'Tools: Python, HuggingFace, Weights & Biases, n8n • Org: UW Foster School of Business',
+      'Developed ETL pipelines and data dashboards for consumer behavior and campaign performance analysis at UW Foster School of Business. Automated NLP experiments and predictive modeling to support marketing insights and strategic decision-making.',
+    details: 'Tools: Python, R, SQL, Tableau, Airflow, Pandas • Org: UW Foster School of Business',
   },
   {
-    title: '🌿 Environmental Planning NLP Pipeline',
+    title: '🌿 AI-Powered Environmental Data Tools',
     description:
-      'Engineered an end-to-end NLP pipeline to generate environmental planning proposals, reducing manual drafting time by ~40% and improving document processing accuracy by 35%, utilizing REST APIs and scalable ML frameworks.',
+      'Led development of AI tools to automate environmental data analysis and compliance reporting, designing a custom Transformer-based NLP model to generate planning proposals, cutting manual drafting time by 40%, and boosting processing throughput by 40%.',
     details:
-      'Tools: Python, BERT, TensorFlow, PyTorch, REST APIs • Company: Confluence Environmental Company',
+      'Tools: Python, PyTorch, Hugging Face Transformers, AWS EC2 • Company: Confluence Environmental Company',
   },
 ];
+
 
 export default function ExperienceSection() {
   return (

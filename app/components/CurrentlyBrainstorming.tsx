@@ -12,16 +12,7 @@ export default function CurrentlyBrainstorming() {
       ],
       link: 'https://www.notion.so/dhruti-portfolio/finsight-braindump-243e4feed2738024bd38e260d8ac3816?showMoveTo=true&saveParent=true',
     },
-    {
-      title: 'DubMarket — UW HFS',
-      subtitle: 'Student-based Marketplace and Storage Finder — Jul 2025 – Present' ,
-      points: [
-        'Building a marketplace app from scratch for UW students to buy/sell dorm stuff and find nearby hosts to store items over the summer.',
-        'Backed by UW Housing and Food Services, UW CSEED, DubHacks',
-        'Raised $1000 in funding through DubHacks '
-      ],
-      link: 'https://www.notion.so/dhruti-portfolio/DUMP-UW-Marketplace-App-dubmarket-243e4feed27380c7bb71f417c82b85d4?source=copy_link',
-    },
+    
   ];
 
   return (
