@@ -8,13 +8,8 @@ export default function HeroSection() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="h-screen flex items-center justify-center relative overflow-hidden"
+      className="h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-b from-black to-purple-900/20"
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 to-blue-900/20" />
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(17,24,39,0.7),rgba(0,0,0,1))]" />
-      </div>
-
       <div className="relative z-10 text-center px-4">
         <motion.h1
           initial={{ y: 50 }}
@@ -24,15 +19,19 @@ export default function HeroSection() {
         >
           Dhruti Vadlamudi
         </motion.h1>
+
         <motion.p
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-lg md:text-xl text-gray-300 mb-8 font-light tracking-tight leading-relaxed max-w-xl mx-auto"
+          className="text-lg md:text-xl text-gray-300 mb-8 font-light tracking-tight leading-relaxed max-w-2xl mx-auto"
           style={{ fontFamily: 'inherit' }}
         >
-          I’m a technical product builder at the intersection of engineering, AI, and business. My work lives where strategy meets execution: identifying problems worth solving, designing data-driven solutions, and then bringing them to life with scalable tech.
-           I enjoy turning ambiguous challenges into concrete products, whether that’s automating financial workflows, designing AI-powered tools, or building platforms from scratch.
+          I’m a technical product builder at the intersection of engineering, AI, and business. 
+          My work lives where strategy meets execution: identifying problems worth solving, 
+          designing data-driven solutions, and then bringing them to life with scalable tech. <br /> <br />
+          I enjoy turning ambiguous challenges into concrete products, whether that’s automating 
+          financial workflows, designing AI-powered tools, or building platforms from scratch.
         </motion.p>
       </div>
 
