@@ -31,7 +31,8 @@ export default function HeroSection() {
           className="text-lg md:text-xl text-gray-300 mb-8 font-light tracking-tight leading-relaxed max-w-xl mx-auto"
           style={{ fontFamily: 'inherit' }}
         >
-          I’m Dhruti — a full-stack engineer and AI automation enthusiast who loves building sleek, efficient apps and workflows that just work. I’m all about turning complex problems into clean code and automating the boring stuff so people don’t have to.
+          I’m a technical product builder at the intersection of engineering, AI, and business. My work lives where strategy meets execution: identifying problems worth solving, designing data-driven solutions, and then bringing them to life with scalable tech.
+           I enjoy turning ambiguous challenges into concrete products, whether that’s automating financial workflows, designing AI-powered tools, or building platforms from scratch.
         </motion.p>
       </div>
 

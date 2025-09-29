@@ -6,19 +6,19 @@ const experiences = [
   {
     title: '📊 Financial Forecasting & Automation',
     description:
-      'Built predictive financial models using Python, TensorFlow, and scikit-learn, integrating market and client portfolio data to automate risk analysis workflows and reduce manual review time by 35%. Created interactive Tableau dashboards for tracking key financial indicators.',
+      'Designed and deployed predictive models to automate risk analysis and portfolio reviews, cutting manual review time by 35%. Delivered executive-ready dashboards that connected technical insights directly to investment decisions.',
     details: 'Tools: Python, TensorFlow, scikit-learn, Tableau, SQL • Company: Impact Financial Advisors',
   },
   {
     title: '🧠 Marketing Data Analytics & Automation',
     description:
-      'Developed ETL pipelines and data dashboards for consumer behavior and campaign performance analysis at UW Foster School of Business. Automated NLP experiments and predictive modeling to support marketing insights and strategic decision-making.',
+     'Built ETL pipelines and ML models to extract insights from consumer behavior data, automating campaign performance reporting and supporting strategic marketing decisions at scale.',
     details: 'Tools: Python, R, SQL, Tableau, Airflow, Pandas • Org: UW Foster School of Business',
   },
   {
     title: '🌿 AI-Powered Environmental Data Tools',
     description:
-      'Led development of AI tools to automate environmental data analysis and compliance reporting, designing a custom Transformer-based NLP model to generate planning proposals, cutting manual drafting time by 40%, and boosting processing throughput by 40%.',
+      'Led productization of AI tools for compliance reporting and environmental planning. Designed custom Transformer-based NLP systems to generate proposals, reducing drafting time by 40% and improving throughput for client deliverables.',
     details:
       'Tools: Python, PyTorch, Hugging Face Transformers, AWS EC2 • Company: Confluence Environmental Company',
   },
