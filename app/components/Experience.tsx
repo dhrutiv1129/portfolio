@@ -10,17 +10,16 @@ const experiences = [
     details: 'Tools: Python, TensorFlow, scikit-learn, Tableau, SQL • Company: Impact Financial Advisors',
   },
   {
-    title: '🧠 Marketing Data Analytics & Automation',
-    description:
-     'Built ETL pipelines and ML models to extract insights from consumer behavior data, automating campaign performance reporting and supporting strategic marketing decisions at scale.',
-    details: 'Tools: Python, R, SQL, Tableau, Airflow, Pandas • Org: UW Foster School of Business',
-  },
+  title: "🧠 Employee Engagement & Retention Analytics",
+  description: "Built and managed ETL pipelines consolidating 500k+ HR data points, developed ML models to identify drivers of satisfaction and turnover, and automated reporting to provide real-time workforce insights.",
+  details: "Tools: Python, R, SQL, Tableau, Airflow, Pandas • Org: UW Foster School of Business"
+},
   {
     title: '🌿 AI-Powered Environmental Data Tools',
     description:
       'Led productization of AI tools for compliance reporting and environmental planning. Designed custom Transformer-based NLP systems to generate proposals, reducing drafting time by 40% and improving throughput for client deliverables.',
     details:
-      'Tools: Python, PyTorch, Hugging Face Transformers, AWS EC2 • Company: Confluence Environmental Company',
+      'Tools: Python, PyTorch, Hugging Face Transformers, AWS EC2 • Company: AnteaGroup',
   },
 ];
 
