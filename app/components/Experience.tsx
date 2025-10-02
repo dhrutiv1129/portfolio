@@ -19,7 +19,7 @@ const experiences = [
     description:
       'Led productization of AI tools for compliance reporting and environmental planning. Designed custom Transformer-based NLP systems to generate proposals, reducing drafting time by 50% and improving throughput for client deliverables.',
     details:
-      'Tools: Python, PyTorch, Hugging Face Transformers, AWS EC2 • Company: AnteaGroup',
+      'Tools: Python, PyTorch, Hugging Face Transformers, AWS EC2 • Company: Cascadia Consulting Group',
   },
 ];
 
