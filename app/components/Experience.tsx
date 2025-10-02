@@ -17,7 +17,7 @@ const experiences = [
   {
     title: '🌿 AI-Powered Environmental Data Tools',
     description:
-      'Led productization of AI tools for compliance reporting and environmental planning. Designed custom Transformer-based NLP systems to generate proposals, reducing drafting time by 40% and improving throughput for client deliverables.',
+      'Led productization of AI tools for compliance reporting and environmental planning. Designed custom Transformer-based NLP systems to generate proposals, reducing drafting time by 50% and improving throughput for client deliverables.',
     details:
       'Tools: Python, PyTorch, Hugging Face Transformers, AWS EC2 • Company: AnteaGroup',
   },
